@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Forma case study: a full-stack project management application built with React, FastAPI, SQLAlchemy and JWT authentication.">
+  <title>Forma | Amir Thompson</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+<header class="nav">
+  <a class="wordmark" href="index.html">Amir Thompson<span class="mark">.</span></a>
+  <nav aria-label="Main">
+    <a href="index.html#work">Work</a>
+    <a href="correlation-assistant.html">Correlation Assistant</a>
+    <a href="index.html#about">About</a>
+    <a href="index.html#contact">Contact</a>
+    <button data-theme-toggle type="button">☀ Light mode</button>
+  </nav>
+</header>
+<main>
+<article class="case-wrap">
+  <a class="case-back" href="index.html#work">← Back to selected work</a>
+  <div class="case-kicker">Featured project / Full-stack application / Independent project</div>
+  <h1 class="case-title">Forma<span class="mark">.</span></h1>
+  <p class="case-intro">A unified workspace for managing projects, tracking issues, coordinating teams, and keeping conversations connected to the work.</p>
+  <div class="case-meta">
+    <div><strong>What I built</strong><span>Full-stack application<br>Team and task workflows<br>Messaging and insights</span></div>
+    <div><strong>Technologies</strong><span>React, Vite, JavaScript, CSS, Python, FastAPI, SQLAlchemy, SQLite, JWT</span></div>
+    <div><strong>Status</strong><span>Local working application<br>Source code on GitHub<br>Public deployment planned</span></div>
+  </div>
+  <figure class="case-hero">
+    <img src="assets/forma-home.webp" alt="Forma dashboard with personalized task counts, deadlines, and an issues needing attention list">
+    <figcaption>Forma's home dashboard brings current priorities, overdue work, and project activity into one view. The sample workspace uses fictional demo data.</figcaption>
+  </figure>
+  <section class="case-section">
+    <span class="case-kicker">01 / The idea</span>
+    <h2>Give every task a place, and every team a shared view.</h2>
+    <p>Forma began as a way to practice building a complete application, from authentication and database models to an interface people can use to plan real work. Instead of treating tasks as isolated records, I organized the product around projects, teammates, deadlines, and the conversations that support them.</p>
+  </section>
+  <section class="case-section">
+    <span class="case-kicker">02 / The experience</span>
+    <h2>From daily priorities to the bigger picture.</h2>
+    <div class="case-grid">
+      <p><strong>Plan and execute.</strong> A personalized home dashboard and My Work view surface assigned issues, upcoming deadlines, and completed work. Issue lists help users review priorities and track progress across projects.</p>
+      <p><strong>Collaborate and understand.</strong> Teams and project spaces organize shared work, direct and group messages support communication, and insights summarize project health and workload.</p>
+    </div>
+    <div class="case-gallery">
+      <figure><img src="assets/forma-issues.webp" loading="lazy" alt="Forma all-issues list with status, priority, project, and assignee columns"><figcaption>Issue tracking with searchable, filterable work.</figcaption></figure>
+      <figure><img src="assets/forma-projects.webp" loading="lazy" alt="Forma projects cards with descriptions and completion bars"><figcaption>Projects organized by team and progress.</figcaption></figure>
+      <figure><img src="assets/forma-my-work.webp" loading="lazy" alt="Forma personal planner showing overdue tasks"><figcaption>Personal planning grouped around due dates.</figcaption></figure>
+      <figure><img src="assets/forma-messages.webp" loading="lazy" alt="Forma group messaging conversation with team members"><figcaption>Direct and group conversations.</figcaption></figure>
+      <figure><img src="assets/forma-insights.webp" loading="lazy" alt="Forma insights dashboard showing issue metrics and workload bars"><figcaption>Project health and team workload insights.</figcaption></figure>
+      <figure><img src="assets/forma-teams.webp" loading="lazy" alt="Forma team cards showing members and related projects"><figcaption>Shared team spaces and membership.</figcaption></figure>
+    </div>
+  </section>
+  <section class="case-section">
+    <span class="case-kicker">03 / Under the hood</span>
+    <h2>One application, connected end to end.</h2>
+    <div class="case-grid">
+      <div><h3>Frontend</h3><p>React and Vite power the interface, including dashboards, project views, task lists, and messaging. The layout uses a consistent design language across the workspace.</p></div>
+      <div><h3>Backend and data</h3><p>FastAPI exposes application endpoints. SQLAlchemy models users, teams, projects, tasks, and conversations. JWT-based authentication connects user sessions to protected workflows.</p></div>
+    </div>
+  </section>
+  <section class="case-section">
+    <span class="case-kicker">04 / What's next</span>
+    <h2>From local application to public demo.</h2>
+    <p>The project currently runs locally, with a populated fictional workspace for testing and showcasing multi-user flows. Next steps include deploying the application, adding automated tests, and improving the public demo experience.</p>
+    <a class="case-link" href="https://github.com/amirt2505/forma" target="_blank" rel="noopener noreferrer">Explore Forma on GitHub ↗</a>
+  </section>
+</article>
+</main>
+<footer><span>© <span data-year></span> Amir Thompson</span><a href="index.html#contact">Get in touch ↗</a></footer>
+</body>
+</html>
